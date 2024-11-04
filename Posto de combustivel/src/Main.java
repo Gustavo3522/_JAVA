@@ -7,11 +7,11 @@ public class Main {
     int disel = 0;
 
     System.out.print(""" 
-            [1] Álcool
-            [2] Gasolina
-            [3] Disel
-            [4] Fim
-            FAÇA UMA ESCOLHA: """);
+            [1] Alcohol
+            [2] Gasoline
+            [3] Diesel
+            [4] End
+            Make a choice: """);
     int escolha = sc.nextInt();
 
     while (escolha != 4){
@@ -23,11 +23,11 @@ public class Main {
             disel +=1;
         }
         System.out.print(""" 
-            [1] Álcool
-            [2] Gasolina
-            [3] Disel
-            [4] Fim
-            FAÇA UMA ESCOLHA: """);
+            [1] Alcohol
+            [2] Gasoline
+            [3] Diesel
+            [4] End
+            Make a choice: """);
             escolha = sc.nextInt();
     }
     System.out.println("MUITO OBRIGADO");

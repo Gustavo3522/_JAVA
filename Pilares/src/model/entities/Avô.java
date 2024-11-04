@@ -1,6 +1,6 @@
 package model.entities;
 
-public class Avô extends Pessoa{
+public class    Avô extends Pessoa{
     private Integer qtdFilhos;
     private Integer qtdFiosBrancos;
 
